@@ -2,6 +2,8 @@
 
 import Image from 'next/image';
 import React, { useState } from 'react';
+import TodoItem from './TodoItem.jsx'
+
 
 export default function Home() {
   const [count, setCount] = useState(0);
@@ -10,6 +12,7 @@ export default function Home() {
     <div>
       <p>Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>Increment</button>
+      <TodoItem/>
     </div>
   );
 }
