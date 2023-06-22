@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import React, { useState } from 'react';
-import TodoItem from './TodoItem.jsx'
+import TodoItem from './ShowItem/TodoItem.jsx'
 
 
 export default function Home() {
